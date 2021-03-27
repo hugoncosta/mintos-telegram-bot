@@ -42,7 +42,7 @@ def help(update, context):
     query = update.callback_query
     query.answer()
     
-    help_keyboard = [[InlineKeyboardButton('GitHub Link', url='https://github.com/hugoncosta')]
+    help_keyboard = [[InlineKeyboardButton('GitHub Link', url='https://github.com/hugoncosta/mintos-telegram-bot')]
                      , [InlineKeyboardButton('Go Back', callback_data='startover')]]
     
     help_rmarkup = InlineKeyboardMarkup(help_keyboard, resize_keyboard = True)
