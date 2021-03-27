@@ -1,0 +1,8 @@
+Selenium/
+__pycache__/
+test.ipynb
+user_dbx.csv
+LOs.html
+.env
+.vscode/.ropeproject/config.py
+.vscode/.ropeproject/objectdb
